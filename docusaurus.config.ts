@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'PubDoc Reader',
-  tagline: 'Your Online Book Library',
+  title: 'Tech Book',
+  tagline: 'Online Tech Book Library',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -44,7 +44,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/kinensake/pubdoc/tree/main/docs/',
+            'https://github.com/kinensake/tech-book',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
         },
@@ -73,7 +73,7 @@ const config: Config = {
           label: 'Books',
         },
         {
-          href: 'https://github.com/kinensake/pubdoc',
+          href: 'https://github.com/kinensake/tech-book',
           label: 'GitHub',
           position: 'right',
         },
@@ -96,24 +96,11 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'GitHub Discussions',
-              href: 'https://github.com/kinensake/pubdoc/discussions',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/kinensake',
-            },
-          ],
-        },
-        {
           title: 'More',
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/kinensake/pubdoc',
+              href: 'https://github.com/kinensake/tech-book',
             },
           ],
         },
